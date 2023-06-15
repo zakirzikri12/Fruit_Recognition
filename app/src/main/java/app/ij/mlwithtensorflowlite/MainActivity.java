@@ -86,6 +86,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+
     public void classifyImage(Bitmap image){
         try {
             Model model = Model.newInstance(getApplicationContext());
@@ -189,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (id == R.id.detail) {
             // Perform the desired action when the menu item is selected
-            Intent intent = new Intent(MainActivity.this,page_fruit.class);
+            Intent intent = new Intent(MainActivity.this,DetailFruits.class);
             Toast.makeText(this, "Detail Fruit Page",Toast.LENGTH_SHORT).show();
             startActivity(intent);
             return true;

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3DAE3F"
+    android:orientation="vertical"
+    tools:context=".ListFruit">
+
+    <TextView
+        android:id="@+id/txtTtile"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#3DAE3F"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#EDE5E5"
+        android:text="List Fruit of Durian"
+        android:textColor="#CA1C62"
+        android:textColorHighlight="#EAE1E1"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70ee9c">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/BtnFruit1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#53D874"
+                        android:contentDescription="image durian"
+                        app:srcCompat="@drawable/durian2" />
+
+                    <TextView
+                        android:id="@+id/txtFruit1"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"
+                        android:text="Durian : D101"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/BtnFruit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#53D874"
+                        android:contentDescription="image durian"
+                        app:srcCompat="@drawable/durian2" />
+
+                    <TextView
+                        android:id="@+id/txtFruit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"
+                        android:text="Durian: D2"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/BtnFruit3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#53D874"
+                        android:contentDescription="image durian"
+                        app:srcCompat="@drawable/durian2" />
+
+                    <TextView
+                        android:id="@+id/txtFruit3"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"
+                        android:text="Durian: D197"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/BtnFruit4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#53D874"
+                        android:contentDescription="image durian"
+                        app:srcCompat="@drawable/durian2" />
+
+                    <TextView
+                        android:id="@+id/txtFruit4"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"
+                        android:text="Durian: D175"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/BtnFruit5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#53D874"
+                        android:contentDescription="image durian"
+                        app:srcCompat="@drawable/durian2" />
+
+                    <TextView
+                        android:id="@+id/txtFruit5"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"
+                        android:text="Durian: D24"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
