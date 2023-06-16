@@ -87,7 +87,7 @@
                         android:layout_height="47dp"
                         android:layout_marginLeft="100dp"
                         android:layout_marginRight="100dp"
-                        android:text="Durian: D2"
+                        android:text="Durian: D197"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -116,7 +116,7 @@
                         android:layout_height="47dp"
                         android:layout_marginLeft="100dp"
                         android:layout_marginRight="100dp"
-                        android:text="Durian: D197"
+                        android:text="Durian: D24"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -145,7 +145,7 @@
                         android:layout_height="47dp"
                         android:layout_marginLeft="100dp"
                         android:layout_marginRight="100dp"
-                        android:text="Durian: D175"
+                        android:text="Durian: D2"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -174,7 +174,7 @@
                         android:layout_height="47dp"
                         android:layout_marginLeft="100dp"
                         android:layout_marginRight="100dp"
-                        android:text="Durian: D24"
+                        android:text="Durian: D175"
                         android:textSize="24sp" />
 
                 </LinearLayout>

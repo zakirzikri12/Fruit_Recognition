@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         result = findViewById(R.id.result);
         imageView = findViewById(R.id.imageView);
+        confidence = findViewById(R.id.confidence);
 
         camera.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         fruit.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this,page_fruit.class);
+            Intent intent = new Intent(MainActivity.this,ListFruit.class);
             startActivity(intent);
         });
     }
@@ -130,12 +131,12 @@ public class MainActivity extends AppCompatActivity {
             String[] classes = {"D101","D175","D197","D2","D24"};
             result.setText(classes[maxPos]);
 
-//            String s ="";
-//
-//            for(int i=0; i< classes.length; i++){
-//                s += String.format("%s: %.1f%%\n", classes[i], confidences[i] * 100);
-//            }
-//            confidence.setText(s);
+            String s ="";
+
+            for(int i=0; i< classes.length; i++){
+                s += String.format("%s: %.1f%%\n", classes[i], confidences[i] *10);
+            }
+            confidence.setText(s);
 
             // Releases model resources if no longer used.
             model.close();
@@ -192,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (id == R.id.detail) {
             // Perform the desired action when the menu item is selected
-            Intent intent = new Intent(MainActivity.this,DetailFruits.class);
+            Intent intent = new Intent(MainActivity.this,ListFruit.class);
             Toast.makeText(this, "Detail Fruit Page",Toast.LENGTH_SHORT).show();
             startActivity(intent);
             return true;
@@ -200,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.price) {
             // Perform the desired action when the menu item is selected
-            Intent intent = new Intent(MainActivity.this,page_fruit.class);
+            Intent intent = new Intent(MainActivity.this,PriceFruit.class);
             Toast.makeText(this, "Price Fruit Page",Toast.LENGTH_SHORT).show();
             startActivity(intent);
             return true;
@@ -208,7 +209,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.chat) {
             // Perform the desired action when the menu item is selected
-            Intent intent = new Intent(MainActivity.this,page_fruit.class);
+            Intent intent = new Intent(MainActivity.this,PriceFruit.class);
             Toast.makeText(this, "Chat Page",Toast.LENGTH_SHORT).show();
             startActivity(intent);
             return true;

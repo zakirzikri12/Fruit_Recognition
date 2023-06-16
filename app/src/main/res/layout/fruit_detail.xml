@@ -7,76 +7,84 @@
     android:orientation="vertical"
     tools:context=".DetailFruits">
 
-    <TextView
-        android:id="@+id/txtTitle"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="20dp"
-        android:background="#70ee9c"
-        android:fontFamily="sans-serif-smallcaps"
-        android:includeFontPadding="false"
-        android:text="Fruit detail"
-        android:textColor="#D81B60"
-        android:textSize="48sp" />
+        android:orientation="vertical">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="377dp"
-        android:layout_height="0dp"
-        android:layout_marginLeft="15dp"
-        android:layout_weight="1">
-
-        <LinearLayout
+        <TextView
+            android:id="@+id/txtTitle"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#70ee9c"
+            android:fontFamily="sans-serif-smallcaps"
+            android:includeFontPadding="false"
+            android:text="Fruit detail"
+            android:textColor="#D81B60"
+            android:textSize="48sp" />
+    </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/imgTitle"
-                android:layout_width="300dp"
-                android:layout_height="224dp"
-                android:layout_marginLeft="40dp"
-                android:contentDescription="image durian"
-                tools:src="@drawable/durian2" />
-
-            <EditText
-                android:id="@+id/txtStory"
-                android:layout_width="325dp"
-                android:layout_height="0dp"
-                android:layout_marginLeft="30dp"
-                android:layout_weight="1"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit nisi nec quam condimentum, sit amet consequat lorem fermentum. Integer dictum posuere ipsum, id laoreet dui aliquet at. Proin at orci eget nisi fermentum ullamcorper. Fusce accumsan ligula sit amet velit eleifend, nec lobortis risus vestibulum. Morbi sed ligula vel dolor efficitur fringilla non in tortor. Duis commodo elit non ante scelerisque viverra" />
-
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imgTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:src="@drawable/durian2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtStory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem dasdasdasfasf"
+                android:textSize="23dp" />
+            <TextView
+                android:id="@+id/txtStory1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem dasdasdasfasf"
+                android:textSize="23dp" />
+            <TextView
+                android:id="@+id/txtStory2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem dasdasdasfasf"
+                android:textSize="23dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnBack"
-            android:layout_width="0dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="12dp"
-            android:layout_weight="1"
+            android:layout_marginRight="10dp"
             android:text="Back" />
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="0dp"
+            android:layout_width="150dp"
+            android:layout_marginLeft="10dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="12dp"
-            android:layout_weight="1"
-            android:duplicateParentState="false"
-            android:text="Button" />
+            android:text="Next" />
     </LinearLayout>
 </LinearLayout>

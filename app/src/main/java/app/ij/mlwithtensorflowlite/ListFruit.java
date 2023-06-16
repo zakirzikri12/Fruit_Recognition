@@ -29,7 +29,7 @@ public class ListFruit extends AppCompatActivity {
         BtnFruit1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ca = new Intent(getApplicationContext(), MainActivity.class);
+                Intent ca = new Intent(getApplicationContext(), DetailFruits.class);
                 ca.putExtra("keyStory", "storyA");
                 startActivity(ca);
             }
@@ -38,7 +38,7 @@ public class ListFruit extends AppCompatActivity {
         BtnFruit2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ca = new Intent(getApplicationContext(), DetailFragment.class);
+                Intent ca = new Intent(getApplicationContext(), DetailFruits.class);
                 ca.putExtra("keyStory", "storyB");
                 startActivity(ca);
             }
@@ -47,7 +47,7 @@ public class ListFruit extends AppCompatActivity {
         BtnFruit3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ca = new Intent(getApplicationContext(), DetailFragment.class);
+                Intent ca = new Intent(getApplicationContext(), DetailFruits.class);
                 ca.putExtra("keyStory", "storyC");
                 startActivity(ca);
             }
@@ -56,7 +56,7 @@ public class ListFruit extends AppCompatActivity {
         BtnFruit4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ca = new Intent(getApplicationContext(), DetailFragment.class);
+                Intent ca = new Intent(getApplicationContext(), DetailFruits.class);
                 ca.putExtra("keyStory", "storyD");
                 startActivity(ca);
             }
@@ -65,7 +65,7 @@ public class ListFruit extends AppCompatActivity {
         BtnFruit5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ca = new Intent(getApplicationContext(), DetailFragment.class);
+                Intent ca = new Intent(getApplicationContext(), DetailFruits.class);
                 ca.putExtra("keyStory", "storyE");
                 startActivity(ca);
             }

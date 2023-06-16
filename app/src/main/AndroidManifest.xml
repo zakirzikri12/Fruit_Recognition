@@ -22,7 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".page_fruit" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ListFruit" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".DetailFruits" android:parentActivityName=".ListFruit"/>
+        <activity android:name=".PriceFruit" android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
