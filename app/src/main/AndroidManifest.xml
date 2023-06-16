@@ -15,7 +15,10 @@
         android:label="Fruit Recognition"
         android:roundIcon="@drawable/ic_launcher_background"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MLWithTensorFlowLite">
+        android:theme="@style/Theme.MLWithTensorFlowLite"
+        android:usesCleartextTraffic = "true">
+
+
 
 
         <activity
