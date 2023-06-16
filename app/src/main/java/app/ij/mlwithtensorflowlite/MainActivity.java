@@ -37,6 +37,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
 import app.ij.mlwithtensorflowlite.ml.Model;
+import app.ij.mlwithtensorflowlite.ml.ModelV2;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -92,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void classifyImage(Bitmap image){
         try {
-            Model model = Model.newInstance(getApplicationContext());
+            ModelV2 model = ModelV2.newInstance(getApplicationContext());
 
             // Creates inputs for reference.
             TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.FLOAT32);
@@ -115,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
             inputFeature0.loadBuffer(byteBuffer);
 
             // Runs model inference and gets result.
-            Model.Outputs outputs = model.process(inputFeature0);
+            ModelV2.Outputs outputs = model.process(inputFeature0);
             TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
             float[] confidences = outputFeature0.getFloatArray();
@@ -128,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
                     maxPos = i;
                 }
             }
-            String[] classes = {"D101","D175","D197","D2","D24"};
+            String[] classes = {"D101","D175","D197","D2","D24","Invalid"};
             result.setText(classes[maxPos]);
 
             String s ="";
