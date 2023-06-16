@@ -209,7 +209,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.chat) {
             // Perform the desired action when the menu item is selected
-            Intent intent = new Intent(MainActivity.this,PriceFruit.class);
+            Intent intent = new Intent(MainActivity.this,ChatFruit.class);
             Toast.makeText(this, "Chat Page",Toast.LENGTH_SHORT).show();
             startActivity(intent);
             return true;
