@@ -42,7 +42,7 @@ import app.ij.mlwithtensorflowlite.ml.ModelV2;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button camera, gallery, fruit;
+    Button camera, gallery, fruit , price , chat;
     ImageView imageView;
     TextView result,confidence;
     int imageSize = 224;
@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
         camera = findViewById(R.id.button);
         gallery = findViewById(R.id.button2);
         fruit = findViewById(R.id.button3);
+        price = findViewById(R.id.button4);
+        chat = findViewById(R.id.button5);
 
         result = findViewById(R.id.result);
         imageView = findViewById(R.id.imageView);
@@ -82,6 +84,16 @@ public class MainActivity extends AppCompatActivity {
 
         fruit.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this,ListFruit.class);
+            startActivity(intent);
+        });
+
+        price.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this,PriceFruit.class);
+            startActivity(intent);
+        });
+
+        chat.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this,ChatFruit.class);
             startActivity(intent);
         });
     }

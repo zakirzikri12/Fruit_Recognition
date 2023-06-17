@@ -50,7 +50,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="#53D874"
                         android:contentDescription="image durian"
-                        app:srcCompat="@drawable/durian2" />
+                        app:srcCompat="@drawable/d101" />
 
                     <TextView
                         android:id="@+id/txtFruit1"
@@ -79,7 +79,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="#53D874"
                         android:contentDescription="image durian"
-                        app:srcCompat="@drawable/durian2" />
+                        app:srcCompat="@drawable/d197" />
 
                     <TextView
                         android:id="@+id/txtFruit2"
@@ -108,7 +108,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="#53D874"
                         android:contentDescription="image durian"
-                        app:srcCompat="@drawable/durian2" />
+                        app:srcCompat="@drawable/d24" />
 
                     <TextView
                         android:id="@+id/txtFruit3"
@@ -137,7 +137,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="#53D874"
                         android:contentDescription="image durian"
-                        app:srcCompat="@drawable/durian2" />
+                        app:srcCompat="@drawable/d2" />
 
                     <TextView
                         android:id="@+id/txtFruit4"
@@ -166,7 +166,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="#53D874"
                         android:contentDescription="image durian"
-                        app:srcCompat="@drawable/durian2" />
+                        app:srcCompat="@drawable/d175" />
 
                     <TextView
                         android:id="@+id/txtFruit5"

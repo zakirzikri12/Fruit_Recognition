@@ -45,27 +45,27 @@ public class DetailFruits extends AppCompatActivity {
             story = extras.getString("keyStory");
             if(story.equals("storyA")){
                 txtT.setText("Durian: D101");
-                imgT.setImageResource(R.drawable.durian2);
+                imgT.setImageResource(R.drawable.d101);
                 txtS.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit nisi nec quam condimentum, sit amet consequat lorem fermentum. Integer dictum");
             }
             else if (story.equals("storyB")){
                 txtT.setText("Durian: D197");
-                imgT.setImageResource(R.drawable.durian2);
+                imgT.setImageResource(R.drawable.d197);
                 txtS.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit nisi nec quam condimentum, sit amet consequat lorem fermentum. Integer dictum");
             }
             else if (story.equals("storyC")){
                 txtT.setText("Durian: D24");
-                imgT.setImageResource(R.drawable.durian2);
+                imgT.setImageResource(R.drawable.d24);
                 txtS.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit nisi nec quam condimentum, sit amet consequat lorem fermentum. Integer dictum");
             }
             else if (story.equals("storyD")){
                 txtT.setText("Durian: D2");
-                imgT.setImageResource(R.drawable.durian2);
+                imgT.setImageResource(R.drawable.d2);
                 txtS.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit nisi nec quam condimentum, sit amet consequat lorem fermentum. Integer dictum");
             }
             else if (story.equals("storyE")){
                 txtT.setText("Durian: D175");
-                imgT.setImageResource(R.drawable.durian2);
+                imgT.setImageResource(R.drawable.d175);
                 txtS.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit nisi nec quam condimentum, sit amet consequat lorem fermentum. Integer dictum");
             }
         }

@@ -8,19 +8,30 @@
     android:background="#70ee9c"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="250sp"
-        android:adjustViewBounds="false"
-        android:src="@drawable/durian" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/image">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:adjustViewBounds="false"
+            android:src="@drawable/durian" />
+
+
+    </LinearLayout>
+
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/image"
         android:layout_marginTop="10dp"
+        android:id="@+id/lay_result"
         android:orientation="vertical">
 
         <TextView
@@ -51,14 +62,15 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_gravity="center">
+            android:layout_gravity="top"
+            android:id="@+id/scrollView">
 
             <TextView
                 android:id="@+id/confidence"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/result"
-                android:layout_gravity="center"
+                android:layout_gravity="top|center"
                 android:text="confidence"
                 android:textColor="#F3511E"
                 android:textSize="22sp" />
@@ -68,63 +80,86 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/button"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/button2"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="12dp"
-        android:backgroundTint="#C0CA33"
-        android:text="Take Picture"
-        android:textAllCaps="false"
-        android:textSize="21sp"
-        android:textStyle="bold"
-        app:icon="@drawable/baseline_camera_alt_24" />
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/lay_result"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="59dp"
-        android:backgroundTint="#C0CA33"
-        android:text="Launch Gallery"
-        android:textAllCaps="false"
-        android:textSize="21sp"
-        android:textStyle="bold"
-        app:icon="@drawable/baseline_drive_folder_upload_24" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="3dp"
-        android:backgroundTint="#C0CA33"
-        android:text="Durian Fruit "
-        android:textAllCaps="false"
-        android:textSize="21sp"
-        android:textStyle="bold"
-        app:icon="@drawable/baseline_list_24" />
-    <!--    <TextView-->
-    <!--        android:id="@+id/confidencesText"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_below="@+id/result"-->
-    <!--        android:layout_marginTop="30dp"-->
-    <!--        android:text="Confidences:"-->
-    <!--        android:textSize="20sp"-->
-    <!--        android:textStyle="bold" />-->
+            android:backgroundTint="#C0CA33"
+            android:text="Take Picture"
+            android:textAllCaps="false"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:icon="@drawable/baseline_camera_alt_24" />
 
 
 
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="#C0CA33"
+            android:text="Launch Gallery"
+            android:textAllCaps="false"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:icon="@drawable/baseline_drive_folder_upload_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fruit"
+                android:backgroundTint="#C0CA33"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:icon="@drawable/baseline_list_24" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#C0CA33"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:icon="@drawable/baseline_local_atm_24" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bot"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#C0CA33"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:icon="@drawable/baseline_chat_24" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
 </RelativeLayout>
