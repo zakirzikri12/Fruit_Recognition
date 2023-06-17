@@ -7,7 +7,6 @@
     app:circularflow_radiusInDP="20"
     android:background="#70ee9c"
     tools:context=".MainActivity">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
