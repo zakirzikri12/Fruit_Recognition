@@ -61,7 +61,7 @@ public class DetailFruits extends AppCompatActivity {
             else if (story.equals("storyD")){
                 txtT.setText("Durian: D2");
                 imgT.setImageResource(R.drawable.d2);
-                txtS.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit nisi nec quam condimentum, sit amet consequat lorem fermentum. Integer dictum");
+                txtS.setText("Durian D2 known as Durian sultan");
             }
             else if (story.equals("storyE")){
                 txtT.setText("Durian: D175");

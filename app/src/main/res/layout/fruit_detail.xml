@@ -53,13 +53,13 @@
                 android:id="@+id/txtStory1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lorem dasdasdasfasf"
+                android:text="Charateristics: homogeneous gree husk round/ odd shaped wholesome seeds pale yellow flesh thin,sharp thorns round brown patch at bottom"
                 android:textSize="23dp" />
             <TextView
                 android:id="@+id/txtStory2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lorem dasdasdasfasf"
+                android:text="Price: R23 /kg"
                 android:textSize="23dp" />
         </LinearLayout>
 
