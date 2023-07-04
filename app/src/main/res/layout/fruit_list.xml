@@ -46,8 +46,9 @@
 
                     <ImageButton
                         android:id="@+id/BtnFruit1"
-                        android:layout_width="match_parent"
+                        android:layout_width="350dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:backgroundTint="#53D874"
                         android:contentDescription="image durian"
                         app:srcCompat="@drawable/d101" />
@@ -75,8 +76,9 @@
 
                     <ImageButton
                         android:id="@+id/BtnFruit2"
-                        android:layout_width="match_parent"
+                        android:layout_width="350dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:backgroundTint="#53D874"
                         android:contentDescription="image durian"
                         app:srcCompat="@drawable/d197" />
@@ -104,8 +106,9 @@
 
                     <ImageButton
                         android:id="@+id/BtnFruit3"
-                        android:layout_width="match_parent"
+                        android:layout_width="350dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:backgroundTint="#53D874"
                         android:contentDescription="image durian"
                         app:srcCompat="@drawable/d24" />
@@ -133,8 +136,9 @@
 
                     <ImageButton
                         android:id="@+id/BtnFruit4"
-                        android:layout_width="match_parent"
+                        android:layout_width="350dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:backgroundTint="#53D874"
                         android:contentDescription="image durian"
                         app:srcCompat="@drawable/d2" />
@@ -162,8 +166,9 @@
 
                     <ImageButton
                         android:id="@+id/BtnFruit5"
-                        android:layout_width="match_parent"
+                        android:layout_width="350dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:backgroundTint="#53D874"
                         android:contentDescription="image durian"
                         app:srcCompat="@drawable/d175" />
