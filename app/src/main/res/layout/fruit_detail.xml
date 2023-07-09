@@ -33,12 +33,26 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/imgTitle"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:layout_gravity="center"
-            tools:src="@drawable/durian2" />
+            android:background="@drawable/rounded_corner">
+
+            <ImageButton
+                android:id="@+id/imgTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/purple_200"
+                tools:src="@drawable/durian2" />
+
+        </LinearLayout>
+
+
 
 
 
@@ -46,7 +60,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingStart="13dp">
+            android:paddingStart="13dp"
+            android:paddingEnd="13dp">
 
 
             <TextView
@@ -54,13 +69,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_gravity="center"
                 android:text="durian name"
+                android:background="@drawable/rounded_corner"
+                android:paddingStart="5dp"
                 android:textSize="15dp" />
             <TextView
                 android:id="@+id/txtStory1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="characteristics: "
+                android:background="@drawable/rounded_corner"
+                android:layout_gravity="center"
+                android:paddingStart="5dp"
                 android:layout_marginTop="10dp"
                 android:textSize="15dp" />
             <TextView
@@ -69,6 +90,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="others:"
+                android:background="@drawable/rounded_corner"
+                android:layout_gravity="center"
+                android:paddingStart="5dp"
                 android:textSize="15dp" />
         </LinearLayout>
 

@@ -118,6 +118,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_gravity="center"
             android:gravity="center">
 
             <Button
@@ -125,9 +126,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Fruit"
+                android:autoSizeTextType="uniform"
                 android:backgroundTint="#C0CA33"
                 android:textAllCaps="false"
-                android:textSize="18sp"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 app:icon="@drawable/baseline_list_24" />
 
@@ -135,11 +137,12 @@
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
                 android:text="Price"
                 android:layout_marginLeft="5dp"
                 android:backgroundTint="#C0CA33"
                 android:textAllCaps="false"
-                android:textSize="18sp"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 app:icon="@drawable/baseline_local_atm_24" />
 
@@ -147,11 +150,12 @@
                 android:id="@+id/button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
                 android:text="Bot"
                 android:layout_marginLeft="5dp"
                 android:backgroundTint="#C0CA33"
                 android:textAllCaps="false"
-                android:textSize="18sp"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 app:icon="@drawable/baseline_chat_24" />
 

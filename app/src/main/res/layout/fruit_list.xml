@@ -59,7 +59,9 @@
                         android:layout_height="47dp"
                         android:layout_marginLeft="100dp"
                         android:layout_marginRight="100dp"
-                        android:text="Durian : D101"
+                        android:text="D101"
+                        android:background="@drawable/rounded_corner_2"
+                        android:gravity="center"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -89,7 +91,9 @@
                         android:layout_height="47dp"
                         android:layout_marginLeft="100dp"
                         android:layout_marginRight="100dp"
-                        android:text="Durian: D197"
+                        android:text="D197"
+                        android:gravity="center"
+                        android:background="@drawable/rounded_corner_2"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -119,7 +123,9 @@
                         android:layout_height="47dp"
                         android:layout_marginLeft="100dp"
                         android:layout_marginRight="100dp"
-                        android:text="Durian: D24"
+                        android:text="D24"
+                        android:background="@drawable/rounded_corner_2"
+                        android:gravity="center"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -149,7 +155,9 @@
                         android:layout_height="47dp"
                         android:layout_marginLeft="100dp"
                         android:layout_marginRight="100dp"
-                        android:text="Durian: D2"
+                        android:text="D2"
+                        android:gravity="center"
+                        android:background="@drawable/rounded_corner_2"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -179,7 +187,9 @@
                         android:layout_height="47dp"
                         android:layout_marginLeft="100dp"
                         android:layout_marginRight="100dp"
-                        android:text="Durian: D175"
+                        android:text="D175"
+                        android:gravity="center"
+                        android:background="@drawable/rounded_corner_2"
                         android:textSize="24sp" />
 
                 </LinearLayout>
