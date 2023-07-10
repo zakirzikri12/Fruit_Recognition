@@ -1,7 +1,4 @@
-/*
- * Created by ishaanjav
- * github.com/ishaanjav
- */
+
 
 package app.ij.mlwithtensorflowlite;
 
@@ -36,7 +33,6 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import app.ij.mlwithtensorflowlite.ml.Model;
 import app.ij.mlwithtensorflowlite.ml.ModelV2;
 import app.ij.mlwithtensorflowlite.ml.ModelV3;
 
