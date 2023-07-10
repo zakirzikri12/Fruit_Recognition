@@ -33,8 +33,8 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import app.ij.mlwithtensorflowlite.ml.ModelV2;
 import app.ij.mlwithtensorflowlite.ml.ModelV3;
+import app.ij.mlwithtensorflowlite.ml.ModelV4;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void classifyImage(Bitmap image){
         try {
-            ModelV3 model = ModelV3.newInstance(getApplicationContext());
+            ModelV4 model = ModelV4.newInstance(getApplicationContext());
 
             // Creates inputs for reference.
             TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.FLOAT32);
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
             inputFeature0.loadBuffer(byteBuffer);
 
             // Runs model inference and gets result.
-            ModelV3.Outputs outputs = model.process(inputFeature0);
+            ModelV4.Outputs outputs = model.process(inputFeature0);
             TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
             float[] confidences = outputFeature0.getFloatArray();
