@@ -129,7 +129,7 @@
                 android:autoSizeTextType="uniform"
                 android:backgroundTint="#C0CA33"
                 android:textAllCaps="false"
-                android:textSize="12sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 app:icon="@drawable/baseline_list_24" />
 
@@ -142,7 +142,7 @@
                 android:layout_marginLeft="5dp"
                 android:backgroundTint="#C0CA33"
                 android:textAllCaps="false"
-                android:textSize="12sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 app:icon="@drawable/baseline_local_atm_24" />
 
@@ -155,7 +155,7 @@
                 android:layout_marginLeft="5dp"
                 android:backgroundTint="#C0CA33"
                 android:textAllCaps="false"
-                android:textSize="12sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 app:icon="@drawable/baseline_chat_24" />
 
